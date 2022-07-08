@@ -79,7 +79,9 @@ public class StringUtilities {
     public static String getFirstWord(String spaceDelimitedString){
 
 
-        return spaceDelimitedString;
+        String[] words = spaceDelimitedString.split(" ");
+        String firstWord = words[0];
+        return firstWord;
     }
 
     /**
